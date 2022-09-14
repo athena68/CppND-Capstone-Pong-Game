@@ -22,4 +22,4 @@ This is the repo for the Capstone project in the [Udacity C++ Nanodegree Program
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./SnakeGame`.
+4. Run it: `./PongGame`.
