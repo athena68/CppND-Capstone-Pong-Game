@@ -24,7 +24,7 @@ The project uses Object Oriented Programming techniques. Can be seen in each fil
 Classes use appropriate access specifiers for class members. Classes encapsulate behavior. Classes abstract implementation details from their interfaces. can be seen in ball.h, paddles.h, player_score.h, controller.h, game.h, renderer.h...
 Class constructors utilize member initialization lists: file src/renderer.cpp:8
 
-*Memory Management
+* Memory Management
 The project makes use of references in function declarations: src/controller.h:8, /src/game.h:16, /src/game.h:29, /src/renderer.h:18, ...
 The project uses destructors appropriately: src/renderer.cpp:34:38
 
