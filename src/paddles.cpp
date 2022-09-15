@@ -10,7 +10,7 @@ Paddle::Paddle(Vector2D position, std::size_t w, std::size_t h,
     _render_info.w = w;
     _render_info.h = h;
     _screen_height = scr_h;
-    printf("BALL::First paddle pos(%d, %d), paddle size (%d, %d)\n", _position.x, _position.y, _render_info.w, _render_info.h);
+    // printf("BALL::First paddle pos(%d, %d), paddle size (%d, %d)\n", _position.x, _position.y, _render_info.w, _render_info.h);
 
 }
 

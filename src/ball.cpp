@@ -10,7 +10,7 @@ Ball::Ball(Vector2D position/*, Vector2D velocity*/, std::size_t w, std::size_t 
     _render_info.h = h+5;
     _velocity.x = ball_speed;
     _velocity.y = 0;
-    printf("BALL::First ball pos(%d, %d), ball size (%d, %d)\n", _position.x, _position.y, _render_info.w, _render_info.h);
+    // printf("BALL::First ball pos(%d, %d), ball size (%d, %d)\n", _position.x, _position.y, _render_info.w, _render_info.h);
 }
 // static int s_count = 0;
 void Ball::Update(Uint32 dTime)
