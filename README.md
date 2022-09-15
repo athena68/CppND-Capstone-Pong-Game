@@ -51,4 +51,6 @@ The project uses destructors appropriately: src/renderer.cpp:34:38
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
-4. Run it: `./PongGame`.
+4. Copy font file to build folder: `cp ../OpenSans-Regular.ttf .`
+5. Run it: `./PongGame`.
+>Make sure OpenSans-Regular.ttf file exists same location with run file PongGame
